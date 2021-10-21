@@ -36,7 +36,7 @@ public class TravelService {
             try {
                 travelQuotes.add(future.get());
             } catch (ExecutionException e) {
-                travelQuotes.add(quoteTask.getFailurQuote(e.getCause()));
+                travelQuotes.add(quoteTask.getFailureQuote(e.getCause()));
             } catch (CancellationException e) {
                 travelQuotes.add(quoteTask.getTimeOutQuote(e));
             }

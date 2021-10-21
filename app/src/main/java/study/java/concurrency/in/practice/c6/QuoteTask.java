@@ -19,7 +19,7 @@ public class QuoteTask implements Callable<TravelQuote> {
         return travelCompany.solicitQuote(travelInfo);
     }
 
-    public TravelQuote getFailurQuote(Throwable cause) {
+    public TravelQuote getFailureQuote(Throwable cause) {
         return null;
     }
 
