@@ -1,6 +1,6 @@
 package study.java.concurrency.in.practice.c5.synchronizer.futuretask;
 
-import study.java.concurrency.in.practice.domain.ProductInfo;
+import study.java.concurrency.in.practice.c5.domain.ProductInfo;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
